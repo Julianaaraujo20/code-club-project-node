@@ -52,7 +52,7 @@ app.post("/users", (request, reponse) => {
 
 
 app.put("/users/:id", checkUserId, (request, reponse) => {
-   const { name, age } = request.body
+   const { name, age } = request.b
     const index = request.userIndex
     const id = request.userId
 
