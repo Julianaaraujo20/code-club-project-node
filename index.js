@@ -8,7 +8,7 @@ app.use(express.json())
 /*
      - Query params => meusite.com/users?nome=juliana&age=28 // FILTROS
      - Route params => /users/2    // BUSCAR, DELETAR OU ATUALIZAR ALGO ESPECÍFIO
-     - Request Body => {"name: "Rodolfo", "age":}
+     - Request Body => {"name: "Rodolfo", "age":
      
      - GET         => Buscar informações no back-end
      - POST        => Criar informações no back-end 
@@ -75,5 +75,5 @@ app.delete("/users/:id", checkUserId, (request, reponse) => {
 
 
 app.listen(port, () => {
-    console.log(`🚀 Server started on port ${port} 🚀 `) 
+    console.log(`🚀 Server started oon port ${port} 🚀 `) 
 }) 
